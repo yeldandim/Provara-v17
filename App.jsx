@@ -10,9 +10,9 @@ const DARK  = '#111110'
 const WHITE = '#FFFFFF'
 
 /* ═══════════════════════════════════════
-   LOGO — h=34 navbar, h=72 hero, h=20 footer
+   LOGO — h=72 navbar, h=72 hero, h=72 footer
 ═══════════════════════════════════════ */
-function Logo({ h = 34, dark = false }) {
+function Logo({ h = 72, dark = false }) {
   const ink = dark ? WHITE : INK
   return (
     <svg height={h} viewBox="0 0 800 200" fill="none"
