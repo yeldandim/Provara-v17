@@ -682,7 +682,7 @@ function Footer() {
   return (
     <footer style={{ background:DARK, borderTop:'1px solid rgba(255,255,255,.07)', padding:`clamp(40px,5vw,56px) ${PAD} 28px` }}>
       <div style={{ maxWidth:MW, margin:'0 auto' }}>
-        <div style={{ display:'grid', gridTemplateColumns:'1.5fr 1fr 1fr 1fr', gap:'40px', marginBottom:'40px' }} className="g2">
+        <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr 1fr', gap:'40px', marginBottom:'40px' }} className="g2">
           <div>
             <Logo h={72} dark={true} />
             <p style={{ fontFamily:'var(--sans)', fontSize:'13px', color:'rgba(255,255,255,.3)', marginTop:'14px', lineHeight:1.75, maxWidth:'220px' }}>
