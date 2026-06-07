@@ -109,7 +109,7 @@ function Navbar() {
         pointerEvents: onDark ? 'none' : 'auto',
         transition:'opacity .4s',
       }}>
-        <Logo h={34} dark={false} />
+        <Logo h={72} dark={false} />
       </a>
       <nav className="desk" style={{ display:'flex', gap:'32px', alignItems:'center' }}>
         {links.map(([l,h]) => (
@@ -605,7 +605,7 @@ function Contact() {
             </div>
           </div>
           <div style={{ paddingTop:'28px', borderTop:'1px solid rgba(255,255,255,.08)', marginTop:'40px' }}>
-            <Logo h={20} dark={true} />
+            <Logo h={72} dark={true} />
             <div style={{ display:'flex', gap:'24px', marginTop:'14px', flexWrap:'wrap' }}>
               {['Vision Aligned','Value Assured'].map(label => (
                 <div key={label} style={{ display:'flex', alignItems:'center', gap:'7px' }}>
