@@ -684,7 +684,7 @@ function Footer() {
       <div style={{ maxWidth:MW, margin:'0 auto' }}>
         <div style={{ display:'grid', gridTemplateColumns:'1.5fr 1fr 1fr 1fr', gap:'40px', marginBottom:'40px' }} className="g2">
           <div>
-            <Logo h={20} dark={true} />
+            <Logo h={40} dark={true} />
             <p style={{ fontFamily:'var(--sans)', fontSize:'13px', color:'rgba(255,255,255,.3)', marginTop:'14px', lineHeight:1.75, maxWidth:'220px' }}>
               Construction management, P6 scheduling, and owner's representation — San Antonio, TX.
             </p>
