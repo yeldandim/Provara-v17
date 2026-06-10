@@ -467,7 +467,7 @@ function Leadership() {
                 ['CCM','Certified Construction Manager — CMAA'],
                 ['MCM','Master of Construction Management — UT Arlington'],
                 ['CMAA','Program Chair, South Central Texas Chapter'],
-                ['ABET','Program Evaluator — Engineering Accreditation'],
+                ['ABET','Program Evaluator — Construction Management Accreditation'],
               ].map(([code, label]) => (
                 <div key={code} style={{ display:'flex', alignItems:'center', gap:'14px', padding:'11px 0', borderBottom:'1px solid var(--rule)' }}>
                   <VA size={14} opacity={.45} />
@@ -547,9 +547,9 @@ function Approach() {
 }
 
 /* ═══════════════════════════════════════
-   CONTACT — email: admin@provarausa.com
+   CONTACT — email: admin@provarallc.com
 ═══════════════════════════════════════ */
-const EMAIL = 'admin@provarausa.com'
+const EMAIL = 'admin@provarallc.com'
 
 function Contact() {
   const r1 = useReveal(), r2 = useReveal()
