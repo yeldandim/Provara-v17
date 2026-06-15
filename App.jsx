@@ -703,7 +703,7 @@ function Footer() {
           {[
             { h:'Company',  items:[['Leadership','#leadership'],['Our Approach','#approach']] },
             { h:'Services', items:[['P6 Scheduling','#scheduling'],["Owner's Rep",'#services'],['Construction Mgmt','#services'],['Due Diligence','#services']] },
-            { h:'Connect',  items:[['Email Us',`mailto:${EMAIL}`],['LinkedIn','https://www.linkedin.com/company/provarallc/about/'],['Schedule a Call','#contact']] },
+            { h:'Connect',  items:[['Email Us',`mailto:${EMAIL}`],['LinkedIn','https://www.linkedin.com/company/provarallc'],['Schedule a Call','#contact']] },
           ].map(col => (
             <div key={col.h}>
               <div style={{ fontFamily:'var(--sans)', fontSize:'11px', fontWeight:500, letterSpacing:'.1em', textTransform:'uppercase', color:AMBER, marginBottom:'14px' }}>{col.h}</div>
